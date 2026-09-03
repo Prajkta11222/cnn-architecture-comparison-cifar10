@@ -1,0 +1,13 @@
+Model,Parameters,Test Accuracy,Training Time,Accuracy Rank,Parameter Rank,Training Time Rank,Observation
+LeNet,"62,006",64.62%,201.05 seconds,3,1,1,Smallest and fastest
+AlexNet,"35,855,178",76.01%,446.36 seconds,2,3,2,High accuracy but many parameters
+VGG-11,"128,807,306",10%,947.16,4,4,4,"Highest parameters, lowest accuracy"
+ResNet-18,"11,181,642",76.75%,478.17 seconds,1,2,3,Highest accuracy with moderate parameters
+,,,,,,,
+"LeNet: Best for low computational cost
+
+AlexNet: Better accuracy but high parameter cost
+
+VGG-11: High computational cost with poor accuracy
+
+ResNet-18: Best overall accuracy-parameter trade-off",,,,,,,
